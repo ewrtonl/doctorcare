@@ -1,12 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DoctorCare</title>
 
-    <link rel="stylesheet" href="./style.css" />
+    <title>DoctorCare</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,9 +12,11 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
+
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <nav id="navigation">
+    <nav id="navigationbar">
       <div class="wrapper">
         <a class="logo" href="#home">
           <svg
@@ -71,19 +71,26 @@
 
         <div class="menu">
           <ul>
-            <li><a onclick="closeMenu()" href="#home">Início</a></li>
-            <li><a onclick="closeMenu()" href="#services">Serviços</a></li>
+            <li>
+              <a onclick="closeMenu()" href="#home"> Início </a>
+            </li>
+            <li>
+              <a onclick="closeMenu()" href="#services"> Serviços </a>
+            </li>
             <li><a onclick="closeMenu()" href="#depoiments">Depoimentos</a></li>
-            <li><a onclick="closeMenu()" href="#about">Sobre</a></li>
+            <li>
+              <a onclick="closeMenu()" href="#about"> Sobre </a>
+            </li>
           </ul>
+
           <a class="button" onclick="closeMenu()" href="#contact"
             >Agende sua consulta</a
           >
 
           <ul class="social-links">
             <li>
-              <a target="_blank" href="https://instagram.com/"
-                ><svg
+              <a target="_blank" href="https://instagram.com">
+                <svg
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
@@ -114,10 +121,9 @@
                 </svg>
               </a>
             </li>
-
             <li>
-              <a target="_blank" href="https://facebook.com/"
-                ><svg
+              <a target="_blank" href="https://facebook.com">
+                <svg
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
@@ -134,10 +140,9 @@
                 </svg>
               </a>
             </li>
-
             <li>
-              <a target="_blank" href="https://youtube.com/"
-                ><svg
+              <a target="_blank" href="https://youtube.com">
+                <svg
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
@@ -200,6 +205,7 @@
             />
           </svg>
         </button>
+
         <button
           aria-expanded="true"
           aria-label="Fechar menu"
@@ -230,14 +236,16 @@
         <div class="col-a">
           <header>
             <h4>BOAS-VINDAS A DOCTORCARE 👋</h4>
+
             <h1>Assistência médica simplificada para todos</h1>
           </header>
 
           <div class="content">
-            <p>
+            <p class="1">
               Os médicos da DoctorCare vão além dos sintomas para tratar a causa
               raiz de sua doença e proporcionar uma cura a longo prazo.
             </p>
+
             <a class="button" href="#contact">
               <svg
                 width="20"
@@ -259,7 +267,7 @@
         <div class="col-b">
           <img
             src="./assets/Foto.png"
-            alt="Foto mulher negra vestindo moletom verde sorrindo"
+            alt="Mulher negra usando moletom verde com as duas maos no peito e sorrindo"
           />
         </div>
 
@@ -268,12 +276,10 @@
             <h3>+3.500</h3>
             <p>Pacientes atendidos</p>
           </div>
-
           <div class="stat">
             <h3>+15</h3>
             <p>Especialistas disponíveis</p>
           </div>
-
           <div class="stat">
             <h3>+10</h3>
             <p>Anos no mercado</p>
@@ -314,7 +320,6 @@
                 amet sint. Velit officia consequat duis enim.
               </p>
             </div>
-
             <div class="card">
               <svg
                 width="24"
@@ -338,7 +343,6 @@
                 amet sint. Velit officia consequat duis enim.
               </p>
             </div>
-
             <div class="card">
               <svg
                 width="24"
@@ -362,7 +366,6 @@
                 amet sint. Velit officia consequat duis enim.
               </p>
             </div>
-
             <div class="card">
               <svg
                 width="24"
@@ -386,7 +389,6 @@
                 amet sint. Velit officia consequat duis enim.
               </p>
             </div>
-
             <div class="card">
               <svg
                 width="24"
@@ -410,7 +412,6 @@
                 amet sint. Velit officia consequat duis enim.
               </p>
             </div>
-
             <div class="card">
               <svg
                 width="24"
@@ -570,7 +571,7 @@
           <header>
             <h3>Empresas que confiam</h3>
           </header>
-  
+
           <div class="content">
             <div class="comp-logos">
               <svg
@@ -766,7 +767,7 @@
         <div class="col-b">
           <img
             src="./assets/happy-doctor-holding-a-clipboard-with-patients.png"
-            alt="Doutor feliz segurando pracheta com pacientes"
+            alt="Doutor feliz segurando prancheta com pacientes"
           />
         </div>
       </div>
@@ -832,10 +833,11 @@
                 contato@doctorcare.com
               </li>
             </ul>
+
             <a
               class="button"
-              href="https://wa.me/5511987654321"
               target="_blank"
+              href="https://wa.me/5500987654321"
             >
               <svg
                 width="24"
@@ -857,7 +859,7 @@
         <div class="col-b">
           <img
             src="./assets/homem-negro-segurando-celular.png"
-            alt="Homem negro com moletom bege mexendo no celular"
+            alt="Homem negro usando moletom bege mexendo no celular"
           />
         </div>
       </div>
@@ -918,7 +920,7 @@
           </a>
 
           <p>
-            ©2021 DoctorCare. <br />
+            ©2022 DoctorCare. <br />
             Todos os direitos reservados.
           </p>
         </div>
@@ -926,8 +928,8 @@
         <div class="col-b">
           <ul class="social-links">
             <li>
-              <a target="_blank" href="https://instagram.com/"
-                ><svg
+              <a target="_blank" href="https://instagram.com">
+                <svg
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
@@ -958,10 +960,9 @@
                 </svg>
               </a>
             </li>
-
             <li>
-              <a target="_blank" href="https://facebook.com/"
-                ><svg
+              <a target="_blank" href="https://facebook.com">
+                <svg
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
@@ -978,10 +979,9 @@
                 </svg>
               </a>
             </li>
-
             <li>
-              <a target="_blank" href="https://youtube.com/"
-                ><svg
+              <a target="_blank" href="https://youtube.com">
+                <svg
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
@@ -1036,7 +1036,9 @@
       </svg>
     </a>
 
+    <!-- ScrollReveal lib -->
     <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="./main.js"></script>
+
+    <script src="main.js"></script>
   </body>
 </html>
